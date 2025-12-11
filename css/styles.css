@@ -605,4 +605,13 @@ img { max-width: 100%; height: auto; display: block; }
     .trust-container { flex-direction: column; gap: 1rem; }
     
     .service-card { padding: 1.5rem; }
+
+    /* Mobile Carousel Adjustment */
+    .carousel-slide img { height: 300px; }
+    
+    /* Tighter Section Padding for Mobile */
+    .services-section, .why-choose-section, .winter-callout, .service-area-section { padding: 3rem 0; }
+    
+    /* Adjust long H1s for small screens */
+    .hero-content h1 { font-size: 1.6rem; }
 }
